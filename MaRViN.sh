@@ -79,14 +79,14 @@ echo
 
 print_animated "$MARVIN" "$GREEN"
 
-str=": Una volta fatto ciò dovrai lanciare lo script solution.sh in questo modo: "
+str=": Una volta fatto ciò dovrai lanciare lo script solution.py in questo modo: "
 print_animated "$str" "$WHITE"
 
 echo
 sleep 0.5
 echo
 
-solution="sh solution.sh"
+solution="python3 solution.py"
 
 print_animated "$solution" "$PURPLE"
 
